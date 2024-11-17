@@ -1,11 +1,3 @@
-# Inlämningsuppgift 4
-
-Courses: Objektorienterad programmering (https://www.notion.so/Objektorienterad-programmering-b48a7945c90a4d40a0c71c1a9824b68e?pvs=21)
-Deadline: November 29, 2024
-Status Update: In progress
-Kommentar: https://studentportal.nackademin.se/mod/resource/view.php?id=99773
-Type: Examinationsuppgift
-
 # Intro
 
 ---
