@@ -1,5 +1,4 @@
-Hoppa direkt till ["Backlog (kravspec funktionalitet)"](#backlog)
-
+_Hoppa direkt till ["Backlog (kravspec funktionalitet)"](#backlog)_
 # Intro
 
 ## Bakgrund
@@ -16,11 +15,11 @@ Spelet Quizkampen går ut på att man tävlar, två och två per spel, på att s
 
 Ni behöver bara implementera den spel-funktionalitet som kallas för ”Klassiskt läge” och där man spelar mot en slumpad spelare, den funktionalitet som nås från de två röda ringarna på de första 2 bilderna.
 
-![Screenshot 2024-11-17 at 19.41.18.png](Inla%CC%88mningsuppgift%204%2013f55f2e910b803ebb14c7f631742b34/Screenshot_2024-11-17_at_19.41.18.png)
+![Screenshot_2024-11-17_at_19 41 18](https://github.com/user-attachments/assets/a37e985c-8e65-4e01-8d71-d3eb2bbc1e1f)
 
 När spelat startar får spelare 1 (=förste spelaren som ansluter till ett spel) välja kategori och sedan får hen svara på 3 frågor i den valda kategorin. Spelare 2 (den andre som ansluter till ett spel) får börja med att svara på frågorna i den kategori som spelare 1 har valt. Sedan får spelare 2 välja kategori och så håller det på tills 6 olika kategorier har avverkats. Den som har flest rätta svar då blir spelets vinnare.
 
-![Screenshot 2024-11-17 at 19.40.22.png](Inla%CC%88mningsuppgift%204%2013f55f2e910b803ebb14c7f631742b34/Screenshot_2024-11-17_at_19.40.22.png)
+![Screenshot_2024-11-17_at_19 40 22](https://github.com/user-attachments/assets/4b98a737-2d04-4204-bdae-758be1c3c304)
 
 För att ordentligt förstå vad spelet går ut på, ladda ner gratis-versionen av Quizkampen och spela några omgångar innan ni börjar planera grupparbetet! Läs också backloggen (se nedan) noggrant innan ni kör igång.
 
