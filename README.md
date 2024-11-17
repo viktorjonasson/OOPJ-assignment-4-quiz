@@ -1,3 +1,5 @@
+Hoppa direkt till ["Backlog (kravspec funktionalitet)"](#backlog)
+
 # Intro
 
 ## Bakgrund
@@ -89,6 +91,7 @@ Krav för G:
 
 Förslag för att komma igång: Börja med att bygga en enkelt client-server-applikation där en klient kopplar upp sig mot en server. Klienten laddar sedan ner en fråga med 4 svarsalternativ från servern. Användaren svarar på frågan i klientapplikationen och får feedback om svaret är rätt eller fel. Pusha upp koden till ett eget repo på GitHub dit samtliga i gruppen har collaborator-access. **Denna applikationer ska sedan successivt byggas ut för att bli så lika den ”riktiga” Quizkampen som möjligt.**
 
+<a id="backlog"></a>
 # Backlog (kravspec funktionalitet)
 
 - Det ska vara minst 2 frågor per spel. (I det riktiga spelet har man 3 frågor, i 6 olika kategorier, per spel, men detta kommer att ta lång tid att testa av om ni bygger från början. Börja med bara två frågor och få det att funka först, sen kan ni bygga ut) **(OBL, DELMÅL)**
