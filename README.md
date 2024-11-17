@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ## Bakgrund
 
 Er mormor (eller en annan, liknande, person) har länge älskat att spela fråge-mobilspelet Quizkampen. Men på sistone har det gått utför med spelet! Det har lagts till massa extra funktionalitet så att mormor knappt känner igen sig. Det är galet mycket reklam, irrelevanta ”side quests” och dessutom är allt så litet och plottrigt på mobilen at man knappt ser nåt.
@@ -26,8 +24,6 @@ För att ordentligt förstå vad spelet går ut på, ladda ner gratis-versionen 
 
 # Arbetssätt
 
----
-
 Grupparbetet ska genomföras på samma sätt som i ett riktigt Agilt IT-projekt, dvs, ni strävar efter att alltid ha en fungerande version av programmet att visa upp medan ni jobbar er fram med ärendena i backloggen.
 
 Backloggen är beställarens ”önskelista”. Den innehåller allt som beställaren vill att ni bygger. Vissa beställningar är enklare, vissa är mer komplexa. Det är er uppgift i teamet att fundera kring beställningarna. Vad innebär varje beställning? Hur kan varje beställning byggas? Vilka beställningar måste göras före andra beställningar? 
@@ -36,27 +32,27 @@ Backloggen är beställarens ”önskelista”. Den innehåller allt som bestäl
 
 Arbetet struktureras genom att ni jobbar i sprintar med vissa återkommande aktiviteter. Ni bestämmer själva hur långa sprintarna ska vara, **3-4 dagar kan vara rimligt**.
 
-## **Sprintplanering**
+## Sprintplanering
 
 - Ett längre möte som hålls första dagen i varje sprint.
 - Börja längst upp i backloggen och fundera, för varje beställning, hur den kan byggas. Börja med de obligatoriska punkterna och ta övriga i mån av tid.
 - Bryt ner byggandet av varje punkt i exakta steg som beskriver exakt hur den ska implementeras. Ingen punkt bör ta längre än en timme att bygga (att saker ibland kan ta längre tid än man tror är inget ni behöver ta hänsyn till i planeringen).
 - Lista alla steg och lägg upp dem som lappar på en ScrumBoard (t.ex på Trello.com). De steg som måste göras först ska ligga högst upp, sedan följer efterstående, i bygg- och prioritetsordning. Det som är mest prioriterat, i stunden, är alltid det som ska göras först.
 
-## **Daily stand-ups**
+## Daily stand-ups
 
 - Kortare avstämningsmöte som hålls varje dag.
 - Alla gruppmedlemmar berättar vilket ärende de jobbar med, hur det går, när det beräknas vara klart, om det finns några förhinder att jobba under dagen.
 - Om någon uppgift visar sig vara svårare än man trodde initialt, ventilera detta på mötet och hitta en ny strategi att angripa uppgiften. Kanske behöver ni vara flera som hjälps åt att jobba med den? Kanske är det bättre att skjuta på denna uppgift tills vidare? Backa då lappen på scrumboarden och ta en annan lapp tills vidare.
 
-## **Retrospektiv**
+## Retrospektiv
 
 - Ett möte som hålls i slutet av varje sprint.
 - Alla i gruppen listar vad de tycker har funkat bra och vad som har funkat mindre bra (”Start, Stop, Continue” är en enkel modell att hålla sig till). Bara konstruktiv kritik!
 - Fundera på hur ni kan dra lärdom av eventuella missar i denna sprint för att göra nästa sprint bättre.
 - Det går givetvis jättebra att prata med varandra i gruppen även utanför dessa, formaliserade, möten. Det går också bra att prata med personer i andra grupper.
 
-## **Arbetets gång**
+## Arbetets gång
 
 1. Alla delmoment till de beställningar ni jobbar på ska vara listade på projektets ScrumBoard.
 2. När ni ska börja jobba med ett delmoment tar ni delmomentets lapp på ScrumBoarden och flyttar den för att markera att ”nu är det någon som jobbar med detta ärende”. Jobba gärna i feature-brancher i git som ni sedan mergar successivt. 
@@ -66,18 +62,14 @@ Observera att ni bestämmer själva vilka ärenden ni ska jobba med. Det är ing
 
 Notera att detta INTE betyder att det är ok att inte göra något utöver att implementera den obligatoriska funktionaliteten, alla grupper förväntas implementera så mycket funktionalitet som hinns med under tiden projektet pågår. All resterande tid av ”Objektorientering och Java”-kursen är vigd åt detta grupparbete.
 
-# **Redovisning**
-
----
+# Redovisning
 
 - Redovisning sker inför hela klassen **fredagen den 29 nov (distansklassen)**.
 - Varje grupp förväntas demonstrera sitt spel, berätta om arbetets gång, dela med sig av lärdomar, vad ni har lärt er och visa de mest spännande delarna av koden.
 - Varje gruppmedlem ska berätta vad den personen har bidragit med och visa kod som de har skrivit.
 - Varje grupp kommer att ha ca 20 min till sitt förfogande. Vi börjar direkt på morgonen och är klara för dagen när sista gruppen har redovisat.
 
-# **Betygskriterier**
-
----
+# Betygskriterier
 
 Enbart G ges för denna uppgift. Det är obligatoriskt att delta i grupparbetet, med godkänt resultat, för att kunna bli godkänd på kursen.
 
@@ -91,17 +83,13 @@ Krav för G:
 - Samtliga gruppmedlemmar som redovisar uppgiften måste förstå all kod i ert projekt.
 - **Er applikation ska använda sig av client-server-arkitektur, era klienter måste kunna koppla upp sig, till servern, från en annan dator, och spela parvis.**
 
-# **Startläge**
-
----
+# Startläge
 
 **Jag rekommenderar starkt att ni startar med att bygga en liten mikro-variant på spelet, som sedan successivt byggs ut, under kontrollerade former, istället för att dela upp all funktionalitet, låta var och en bygga sin del och sedan försöka foga ihop allt på slutet.**
 
 Förslag för att komma igång: Börja med att bygga en enkelt client-server-applikation där en klient kopplar upp sig mot en server. Klienten laddar sedan ner en fråga med 4 svarsalternativ från servern. Användaren svarar på frågan i klientapplikationen och får feedback om svaret är rätt eller fel. Pusha upp koden till ett eget repo på GitHub dit samtliga i gruppen har collaborator-access. **Denna applikationer ska sedan successivt byggas ut för att bli så lika den ”riktiga” Quizkampen som möjligt.**
 
 # Backlog (kravspec funktionalitet)
-
----
 
 - Det ska vara minst 2 frågor per spel. (I det riktiga spelet har man 3 frågor, i 6 olika kategorier, per spel, men detta kommer att ta lång tid att testa av om ni bygger från början. Börja med bara två frågor och få det att funka först, sen kan ni bygga ut) **(OBL, DELMÅL)**
 - Frågorna ska vara indelade i olika ämneskategorier. **(OBL)**
@@ -138,8 +126,6 @@ Förslag för att komma igång: Börja med att bygga en enkelt client-server-app
 - Om ni kommer på features som skulle förhöja spelupplevelsen, men som inte finns i orginalspelet, får ni gärna bygga dessa, så länge de obligatoriska önskemålen fortfarande är implementerade.
 
 # Tips
-
----
 
 *Tips för en smidig grupparbetes-upplevelse:*
 
