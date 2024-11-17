@@ -1,7 +1,5 @@
 _Hoppa direkt till ["Backlog (kravspec funktionalitet)"](#backlog)_
 
-<div style="width: 960px; height: 720px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:960px; height:720px" src="https://lucid.app/documents/embedded/53da7dbc-b561-43ae-ad09-687930e0ef82" id="elasiIHWidQA"></iframe></div>
-
 # Intro
 
 ## Bakgrund
