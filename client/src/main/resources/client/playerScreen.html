@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML Prototype</title>
+
+    <style>
+        /*--------GLOBAL--------*/
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: auto;
+        }
+
+        .main-wrapper {
+            margin: auto;
+            padding-bottom: 2rem;
+            max-width: 600px;
+        }
+
+        .content-wrapper {
+            margin: 3rem 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .button-section {
+            margin: 2rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .button-section > button {
+            flex: 1 0 40%;
+            height: 4rem;
+        }
+
+        .padding-global {
+            padding: 0 3rem;
+        }
+
+        /*--------TEXT STYLING--------*/
+        a,
+        p {
+            font-family: Helvetica, sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            word-wrap: break-word;
+            margin-top: 0;
+        }
+
+        h1 {
+            font-family: Helvetica, sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 1.75rem;
+            line-height: 2rem;
+            margin: 0 0 1rem 0;
+        }
+
+        p,
+        a {
+            font-size: 0.9rem;
+            margin-bottom: 0rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+<div class="main-wrapper">
+    <div class="content-wrapper">
+        <div class="heading-section">
+            <h1 id="category">Category</h1>
+            <p id="question">Question</p>
+        </div>
+        <div class="button-section">
+            <button class="correct-answer">Button 1</button>
+            <button class="wrong-answer">Button 2</button>
+            <button class="wrong-answer">Button 3</button>
+            <button class="wrong-answer">Button 4</button>
+        </div>
+    </div>
+</div>
+
+<script src="buttonListeners.js"></script>
+
+</body>
+</html>

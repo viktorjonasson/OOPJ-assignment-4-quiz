@@ -83,13 +83,13 @@ Krav för G:
 - Samtliga gruppmedlemmar som redovisar uppgiften ska ha checkat in kod i ert projekts repo på gitHub.
 - Samtliga gruppmedlemmar som redovisar uppgiften ska ha tagit lappar på ScrumBoarden och jobbat med dem.
 - Samtliga gruppmedlemmar som redovisar uppgiften måste förstå all kod i ert projekt.
-- **Er applikation ska använda sig av client-server-arkitektur, era klienter måste kunna koppla upp sig, till servern, från en annan dator, och spela parvis.**
+- **Er applikation ska använda sig av main.client-server-arkitektur, era klienter måste kunna koppla upp sig, till servern, från en annan dator, och spela parvis.**
 
 # Startläge
 
 **Jag rekommenderar starkt att ni startar med att bygga en liten mikro-variant på spelet, som sedan successivt byggs ut, under kontrollerade former, istället för att dela upp all funktionalitet, låta var och en bygga sin del och sedan försöka foga ihop allt på slutet.**
 
-Förslag för att komma igång: Börja med att bygga en enkelt client-server-applikation där en klient kopplar upp sig mot en server. Klienten laddar sedan ner en fråga med 4 svarsalternativ från servern. Användaren svarar på frågan i klientapplikationen och får feedback om svaret är rätt eller fel. Pusha upp koden till ett eget repo på GitHub dit samtliga i gruppen har collaborator-access. **Denna applikationer ska sedan successivt byggas ut för att bli så lika den ”riktiga” Quizkampen som möjligt.**
+Förslag för att komma igång: Börja med att bygga en enkelt main.client-server-applikation där en klient kopplar upp sig mot en server. Klienten laddar sedan ner en fråga med 4 svarsalternativ från servern. Användaren svarar på frågan i klientapplikationen och får feedback om svaret är rätt eller fel. Pusha upp koden till ett eget repo på GitHub dit samtliga i gruppen har collaborator-access. **Denna applikationer ska sedan successivt byggas ut för att bli så lika den ”riktiga” Quizkampen som möjligt.**
 
 <a id="backlog"></a>
 # Backlog (kravspec funktionalitet)
