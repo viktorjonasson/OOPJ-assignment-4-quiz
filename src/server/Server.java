@@ -6,21 +6,22 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Arrays;
 
 public class Server {
+    private GameHandler gameHandler;
+    private PrintWriter printWriter;
+
     Server(String address, int port) {
+        gameHandler = new GameHandler();
         try (ServerSocket serverSocket = new ServerSocket(port);
              Socket clientSocket = serverSocket.accept();
-             PrintWriter printWriter = new PrintWriter(clientSocket.getOutputStream());
              BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()))) {
 
+            printWriter = new PrintWriter(clientSocket.getOutputStream());
             String request;
             String[] serverAnswer;
             while (true) {
                 if ((request = bufferedReader.readLine()) != null) {
-                    serverAnswer = processClientRequest();
-                    printWriter.write(Arrays.toString(serverAnswer));
                 }
             }
         } catch (IOException e) {
@@ -28,18 +29,10 @@ public class Server {
         }
     }
 
-    private String[] processClientRequest() {
-            return getQuestionSet();
+    protected void writeToClient(String data) {
+        printWriter.println(data);
     }
 
-    private String[] getQuestionSet() {
-        String[] questionSet = {"Question",
-                                "Option 1",
-                                "Option 2",
-                                "Option 3",
-                                "Option 4" };
-        return questionSet;
-    }
 
     public static void main(String[] args) {
         int port = 12345;
